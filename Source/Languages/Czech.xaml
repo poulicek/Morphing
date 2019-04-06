@@ -1,0 +1,32 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="StrTitle">Morphing 2009</system:String>
+    <system:String x:Key="StrOk">OK</system:String>
+    <system:String x:Key="StrCancel">Storno</system:String>
+	<system:String x:Key="StrYes">Ano</system:String>
+	<system:String x:Key="StrNo">Ne</system:String>
+    <system:String x:Key="StrFile">Soubor</system:String>
+    <system:String x:Key="StrScene">Scéna</system:String>
+    <system:String x:Key="StrLanguage">Jazyk</system:String>
+    <system:String x:Key="StrHelp">Nápověda</system:String>
+    <system:String x:Key="StrNew">Nový</system:String>
+    <system:String x:Key="StrOpen">Otevřít...</system:String>
+    <system:String x:Key="StrSave">Uložit</system:String>
+    <system:String x:Key="StrSaveAs">Uložit jako...</system:String>
+    <system:String x:Key="StrClose">Zavřít</system:String>
+    <system:String x:Key="StrCreateKeyFrame">Vytvořit klíčový snímek</system:String>
+    <system:String x:Key="StrRemoveKeyFrame">Odstranit klíčový snímek</system:String>
+    <system:String x:Key="StrInsertImage">Vložit obrázek...</system:String>
+    <system:String x:Key="StrChangeProportions">Změnit rozměry...</system:String>
+    <system:String x:Key="StrAbout">O programu...</system:String>
+    <system:String x:Key="StrGridResolution">Rozlišení mřížky</system:String>
+    <system:String x:Key="StrWidth">Šířka</system:String>
+    <system:String x:Key="StrHeight">Výška</system:String>
+    <system:String x:Key="StrAdaptImage">Přizpůsobit obrázek rozměrům scény</system:String>
+    <system:String x:Key="StrAdaptScene">Přizpůsobit scénu rozměrům obrázku</system:String>
+	<system:String x:Key="StrFps">FPS</system:String>
+	<system:String x:Key="StrRepeat">Opakovat</system:String>
+	<system:String x:Key="StrCanMerge">Objekty budou sloučeny s pozadím, přejete si pokračovat?</system:String>
+</ResourceDictionary>

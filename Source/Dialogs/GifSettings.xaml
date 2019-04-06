@@ -1,0 +1,18 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="Morphing.Dialogs.GifSettings"
+    Height="128" Width="209" WindowStartupLocation="CenterScreen" Style="{StaticResource Dialog}" FocusManager.FocusedElement="{Binding ElementName=txtWidth}" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Border Style="{StaticResource DialogBorder}">
+    	<Grid Width="Auto" Height="Auto">
+    		<Label Margin="8,49.578,0,0" Content="{DynamicResource StrRepeat}" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="117.553" HorizontalAlignment="Left"/>
+    		<TextBox Margin="129.553,20.96,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67.447" Height="23.276" TextAlignment="Right" VerticalContentAlignment="Center" x:Name="txtFPS" TabIndex="0" Text="25" />
+            
+			<Label Margin="8,19.618,0,0" Content="{DynamicResource StrFps}" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="117.553" HorizontalAlignment="Left"/>
+            <CheckBox HorizontalAlignment="Right" Margin="0,56.578,10,0" VerticalAlignment="Top" Content="" x:Name="chkRepeat" Background="{StaticResource LightBkgBrush}" BorderBrush="#FF000000" Foreground="{StaticResource GlyphBrush}"/>
+			
+            <Button x:Name="btnOk" Width="80" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="23" Margin="0,0,100,10" IsDefault="True" Content="{DynamicResource StrOk}"  Click="btnOk_Click"/>
+            <Button x:Name="btnCancel" Width="80" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="23" Margin="0,0,10,10"  IsCancel="True" Content="{DynamicResource StrCancel}"/>
+        </Grid>
+    </Border>
+</Window>

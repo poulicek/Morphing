@@ -1,0 +1,20 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="Morphing.Dialogs.About"
+    Height="169" Width="353" WindowStartupLocation="CenterScreen" Style="{StaticResource Dialog}">
+	<Border Style="{StaticResource DialogBorder}">
+		<Grid>        
+			<StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="10,0,10,0">
+				<TextBlock Margin="10,10,10,10" HorizontalAlignment="Stretch" Foreground="White" FontSize="12" Width="Auto" Height="Auto" TextWrapping="Wrap">
+				<Run Text="Project homepage: "/><Hyperlink NavigateUri="http://morphing.codeplex.com"><Run Text="http://morphing.codeplex.com"/></Hyperlink><LineBreak/><LineBreak/>
+				<Run Text="This application is released under Microsoft Public License. Please visit the homepage for updates and source code."/><LineBreak/><LineBreak/>
+				<Run Text="Author:"/><LineBreak/>
+				<Run Text="Zbyněk Poulíček, Czech Republic"/><LineBreak/>
+				<Hyperlink NavigateUri="mailto:poulicek@gmail.com">poulicek@gmail.com</Hyperlink>
+			</TextBlock>
+			</StackPanel>
+			<Button x:Name="btnClose" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="23" Margin="0,0,10,10" Click="btnClose_Click" IsDefault="True" IsCancel="True" Content="{DynamicResource StrClose}" />			
+		</Grid>
+	</Border>
+</Window>

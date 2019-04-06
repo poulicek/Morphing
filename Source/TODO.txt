@@ -1,0 +1,3 @@
+Todo
+- implementovat pracujici kurzor (viz ukladani do gifu)
+- optimalizovat - pocitani s double je 2X narocnejsi nez int

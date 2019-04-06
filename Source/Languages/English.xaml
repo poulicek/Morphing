@@ -1,0 +1,32 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="StrTitle">Morphing 2009</system:String>
+    <system:String x:Key="StrOk">OK</system:String>
+    <system:String x:Key="StrCancel">Cancel</system:String>
+	<system:String x:Key="StrYes">Yes</system:String>
+	<system:String x:Key="StrNo">No</system:String>
+    <system:String x:Key="StrFile">File</system:String>
+    <system:String x:Key="StrScene">Scene</system:String>
+    <system:String x:Key="StrLanguage">Language</system:String>
+    <system:String x:Key="StrHelp">Help</system:String>
+    <system:String x:Key="StrNew">New</system:String>
+    <system:String x:Key="StrOpen">Open...</system:String>
+    <system:String x:Key="StrSave">Save</system:String>
+    <system:String x:Key="StrSaveAs">Save as...</system:String>
+    <system:String x:Key="StrClose">Close</system:String>
+    <system:String x:Key="StrCreateKeyFrame">Create key frame</system:String>
+    <system:String x:Key="StrRemoveKeyFrame">Remove key frame</system:String>
+    <system:String x:Key="StrInsertImage">Insert image...</system:String>
+    <system:String x:Key="StrChangeProportions">Change proportions...</system:String>
+    <system:String x:Key="StrAbout">About...</system:String>
+    <system:String x:Key="StrGridResolution">Grid resolution</system:String>
+    <system:String x:Key="StrWidth">Width</system:String>
+    <system:String x:Key="StrHeight">Height</system:String>
+    <system:String x:Key="StrAdaptImage">Adapt image to proportions of scene</system:String>
+    <system:String x:Key="StrAdaptScene">Adapt scene to proportions of image</system:String>
+	<system:String x:Key="StrFps">FPS</system:String>
+	<system:String x:Key="StrRepeat">Repeat</system:String>
+	<system:String x:Key="StrCanMerge">All objects will be merged with background. Do you want to continue?</system:String>
+</ResourceDictionary>
